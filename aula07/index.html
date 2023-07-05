@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Locadora2000</title>
+
+  ⁡⁣⁢⁣  <!--! fav Icon-->⁡
+    <link rel="icon" type="image/png" href="img/icon.png">
+
+  ⁡⁣⁢⁣  <!--!Arquivo Css-->⁡
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link 
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" 
+    rel="stylesheet" 
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" 
+    crossorigin="anonymous"/>
+
+⁡⁣⁢⁣<!--! Script JS BootsTrap-->⁡
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" 
+    crossorigin="anonymous">
+    </script>
+    <script src="script.js"></script>
+    </head>
+    <body>
+    <nav class="navbar navbar-expand-lg bg-light">
+    <div class="container-fluid">
+        <img class="me-3" src="img/film.svg" alt="Locadora2000">
+        <a class="navbar-brand" href="#topo">Locadora2000</a>
+
+        <div class="collapse navbar-collapse" id="navBarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li>
+            <a class="nav-link active" aria-current="page"  href="#tabfilmes">Filmes Disponiveis</a>
+            </li>
+
+
+            <li class="nav-item dropdown">
+            <a class="nav-link  dropdown-toggle" 
+            id="DropGeneros" 
+            role="button" 
+            data-bs-toggle="dropdown"
+            href="#drop" 
+            aria-expanded="false">Filmes por categoria</a>
+                <ul class="dropdown-menu" aria-labelledby= "navbarDropdownMenuLink">
+                <li><a class="dropdown-item" href="#gacao">Ação</a></li>
+                <li><a class="dropdown-item" href="#ganim">Animação</a></li>
+                <li><a class="dropdown-item" href="#groman">Romance</a></li>
+                <li><a class="dropdown-item" href="#gsus">Suspense</a></li>
+                </ul>
+                </li>
+
+            <li class="nav-item">   
+          <a class="nav-link" href="#cadfilmes"> Cadastrar Filmes</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  <h1 class="display-1 text-center  mb-5  mt-3" id="topo">Locadora2000</h1>
+
+  <div class="container">
+    <table class="table table-striped table-hover">
+      <thred>
+        <tr>
+        <th scope="col">Código</th>
+        <th scope="col">Título</th>
+        <th scope="col">Diretor</th>
+        <th scope="col">Lançamento</th>
+        <th scope="col">Gêneros</th>
+        <th scope="col">Ator/Atriz Principal</th>
+        <th scope="col">Nota IMDb</th>
+        </tr>
+        </thred>
+        <tbody>
+            <tr>
+            <th class="text-center table-primary" colspan="5" id="gacao">Ação</th>
+            </tr>
+            <tr>
+                <th scope="row">1</th>
+                <td scope="col">Homem-Aranha</td>
+                <td scope="col">Sam Raimi</td>
+                <td scope="col">17 de maio de 2002</td>
+                <td scope="col">Ação</td>
+                <td scope="col">Tobey Maguire</td>
+                <td scope="col">4.6</td>
+            </tr>
+    
+            <th scope="row">2</th>
+            <td scope="col">John Wick 4: Baba Yaga</td>
+            <td scope="col">Chad Stahelski</td>
+            <td scope="col">23 de março de 2023</td>
+            <td scope="col">Ação</td>
+            <td scope="col">Keanu Reeves</td>
+            <td scope="col">3.8</td>
+    
+                
+                <tr>
+                <th class="text-center table-primary" colspan="5" id="ganim">Animação</th>
+                </tr>
+    
+                <tr>
+                    <th scope="row">3</th>
+                    <td scope="col">Super Mario Bros.O Filme</td>
+                    <td scope="col"> Aaron Horvath, Michael Jelenic</td>
+                    <td scope="col"> 6 de abril de 2023 </td>
+                    <td scope="col">Animação</td>
+                    <td scope="col">Chris Pratt</td>
+                    <td scope="col">4.8</td>
+              </tr>
+    
+                <tr>
+                  <th scope="row">4</th>
+                  <td scope="col">Raya e o Último Dragão</td>
+                <td scope="col">Carlos López Estrada, Don Hall</td>
+                  <td scope="col">4 de março de 2021</td>
+                <td scope="col">Animação</td>
+                  <td scope="col">Kelly Marie Tran</td>
+                  <td scope="col">4.6</td>
+                </tr>
+    
+                  
+                  <tr>
+                  <th class="text-center table-primary" colspan="5" id="groman">Romance</th>
+                  </tr>
+    
+                    <tr>
+                      <th scope="row">5</th>
+                      <td scope="col">Amor de Redenção</td>
+                      <td scope="col"> D. J. Caruso</td>
+                      <td scope="col"> 9 de junho de 2022</td>
+                      <td scope="col">Romance</td>
+                      <td scope="col">Abigail Cowen</td>
+                      <td scope="col">4.7</td>
+                      <tr>
+                        <th scope="row">6</th>
+                        <td scope="col">A Escolha</td>
+                        <td scope="col">William G. Davis</td>
+                        <td scope="col">4 de fevereiro de 2016</td>
+                        <td scope="col">Romance</td>
+                        <td scope="col">Benjamin Walker</td>
+                        <td scope="col">4.4</td>
+                      </tr>
+                    </tr>
+                  
+    
+                    <tr>
+                      <th class="text-center table-primary" colspan="5" id="gsus">Suspense </th>
+                    </tr>
+    
+                    <tr>
+                      <th scope="row">7</th>
+                      <td scope="col">O Homem nas trevas</td>
+                      <td scope="col">Erick Donaldson, Adrien Asztalo</td>
+                      <td scope="col">8 de setembro de 2016 </td>
+                      <td scope="col">Suspense</td>
+                      <td scope="col">Jane Levy</td>
+                      <td scope="col">4.3</td>
+                      </tr>
+    
+                      <tr>
+                        <th scope="row">8</th>
+                        <td scope="col">O Telefone Preto</td>
+                        <td scope="col">Scott Derrickson</td>
+                        <td scope="col"> 21 de julho de 2022</td>
+                        <td scope="col">Suspese</td>
+                        <td scope="col">Mason Thames</td>
+                        <td scope="col">4.7</td>
+                      </tr>
+                  </tbody>
+                  </table>
+                  </div>
+    
+                
+                  <div class="mb-5  mt-5" >
+                  <hr class="border-primary  border-3  opacity-75" />
+                  </div>
+    
+                    <div class= "container  mb-5" id="cadfilmes"></div>
+                    <h2 class="text-center  mb-4">Cadastro de Filmes</h2>
+
+                    <form name="register" onsubmit="event.preventDefault()">
+            
+                  ⁡⁣⁣⁢  ⁡⁣⁢⁣ ‍‍‍‍<!--! 𝗖𝗮𝗱𝗮𝘀𝘁𝗿𝗼 𝗱𝗼 𝗰ó𝗱𝗶𝗴𝗼 𝗲 𝗱𝗼 Tí𝘁𝘂𝗹𝗼--->⁡⁡⁡⁡⁡⁡⁡⁡⁡⁡
+                    <div class="row">
+                      <div class="mb-3 col">
+                        <label for="codFilm" class="form-label">Código</label>
+                        <input type="text"  class="form-control "  id="codFilm" name="cod" />
+                      </div>
+
+
+                      <div class="mb-3  col">
+              
+                        <label for="titleFilm" class="form-label">Título</label>
+                        <input type="text" class="form-control" id="titleFilm" name="title"/>
+                      </div>
+                    </div>
+
+              <!--!Cadastro de Diretor e Lançamento -->
+                <div class="row">
+                <div class="mb-3 col">
+                <label for="directorFilm" class="form-label">Diretor</label>
+                <input type="text"  class="form-control "  id="directorFilm" name="director"/>
+                  </div>
+
+
+                <div class="mb-3  col">
+                <label for="yearFilm" class="form-label">Lançamento</label>
+                <input type="text" class="form-control" id="yearFilm" placeholder="DD de MM de AA" name="date"/>
+                </div>
+                </div>⁡⁡
+
+
+              ⁡⁣⁢⁣ <!--!Cadastro de Gênero-->⁡
+          <p class="ms-3">Selecione o Gênero</p>
+          <div class="row mt-3">
+          <div class="col form-check ms-5">
+          <input 
+            type="radio" 
+            id="radioGAcao" 
+            name="radio" 
+            class="form-check-input" 
+            value="acao"/>
+          <label for="radioGAcao" class="form-check-label">Ação</label>
+          </div>
+      
+        <div class="col  form-check ">
+        <input 
+        type="radio" 
+        id="radioGAnim" 
+        name="radio" 
+        class="form-check-input"
+        value="animacao"
+        />
+        <label for="radioGAnim" class="form-label">Animação</label>
+        </div>
+        <div class="col form-check">
+        <input 
+        type="radio" 
+        id="radioGRoman" 
+        name="radio" 
+        class="form-check-input"
+        value="romance"
+        />
+        <label for="radioGRoman" class="form-label">Romance</label>
+        </div>
+        <div class="col form-check">
+        <input 
+        type="radio" 
+        id="radioGSus" 
+        name="radio" 
+        class="form-check-input" 
+        value="suspense"
+        /> 
+        <label for="radioGSus" clas="form-label">Suspense</label>
+        </div>
+        </div>
+        <tr id="insertRow"></tr>
+        
+        <!--!Botão de Enviar!-->
+        <div class="col-auto d-flex  justify-content-center" >
+        <button type="submit" onclick="validationForm(); insert();" class="btn btn-primary mt-3" >Cadastrar</button>
+        </div>
+        </form>
+        </body>
+        </html>
